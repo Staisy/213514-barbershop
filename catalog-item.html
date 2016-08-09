@@ -7,7 +7,7 @@
   <body>
     <header class="main-header">
       <div class="conteiner">
-        <img src="http://placehold.it/210x90">
+        <img src="http://placehold.it/210x90" alt="">
         <nav class="main-navigation">
           <ul>
             <li>
@@ -28,11 +28,12 @@
           </ul>
         </nav>
         <div class="user-block">
-          <a href="login" href="#">Вход</a>
+          <a class="login" href="#">Вход</a>
+        </div>
       </div>
     </header>
     <main class="conteiner">
-      <div class="item">
+      <div class="catalog-item">
         <h2>Набор для путешествий "Baxter of California"</h2>
         <nav class="breadcrumbs">
           <ul>
@@ -50,28 +51,32 @@
             </li>
           </ul>
         </nav>
-        <div class="item">
-          <img src="http://placehold.it/620x675">
-          <img src="http://placehold.it/200x200">
-          <img src="http://placehold.it/200x200">
-          <img src="http://placehold.it/200x200">
-        </div>
         <div class="item-description">
-          <p>Есть в наличии</p>
-          <p>Артикул:Dexter-AE</p>
-          <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь, набор также может стать отличным подарком.</p>
-          <section>
+          <div class="slider">
+            <img class="current" src="http://placehold.it/620x675" alt="">
+            <div class="slider-list">
+              <img class="slide" src="http://placehold.it/200x200" alt="">
+              <img class="slide" src="http://placehold.it/200x200" alt="">
+              <img class="slide" src="http://placehold.it/200x200" alt="">
+            </div>
+          </div>
+          <div>
+            <span>Есть в наличии</span>
+            <span>Артикул:Dexter-AE</span>
+            <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь, набор также может стать отличным подарком.</p>
+            <div>
             <span>2 900 руб.</span>
             <a class="btn" href="#">Купить</a>
-          </section>
-          <h3>В набор входят:</h3>
-          <ul>
-            <li>Средство для умывания (50мл)</li>
-            <li>Увлажняющий крем (50мл)</li>
-            <li>Крем для бритья (50мл)</li>
-            <li>Крем после бритья (50мл)</li>
-            <li>Удобная кожаная косметичка</li>
-          </ul>
+            </div>
+            <h3>В набор входят:</h3>
+            <ul>
+              <li>Средство для умывания (50мл)</li>
+              <li>Увлажняющий крем (50мл)</li>
+              <li>Крем для бритья (50мл)</li>
+              <li>Крем после бритья (50мл)</li>
+              <li>Удобная кожаная косметичка</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
@@ -80,7 +85,7 @@
         <section class="footer-contacts">
          Барбершоп "Бородинский"<br>
          Адрес: г. Санкт-Петербург, ул. Б.Конюшенная, д. 19.8<br>
-         <a href="#">Как нас найти?<a><br>
+         <a href="#">Как нас найти?</a><br>
           Телефон: +7(495)666-02-66
         </section>
         <section class="footer-cosial">
