@@ -1,3 +1,19 @@
 body {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+h2 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+legend {
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", sans-serif;
 }
